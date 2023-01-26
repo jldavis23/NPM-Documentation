@@ -4,7 +4,7 @@ NPM stands for Node Package Manager. It is an open-source software registry that
 
 **2. What problems does NPM solve?**
 
-It allows developers to easily manage dependencies in their projects. It also helps with reusability, since developers can easily share and reuse code by publishing packages to the npm registry. It also clearly 
+It allows developers to easily manage dependencies in their projects. It also helps with reusability, since developers can easily share and reuse code by publishing packages to the npm registry.
 
 **3. Describe the 3 main parts of NPM.**
 
@@ -16,6 +16,10 @@ It allows developers to easily manage dependencies in their projects. It also he
 **4. What is the package.json file?**
 
 When you install an npm package, a package.json file will generate. It contains some metadata about the project such as name and version. It also lists the dependencies and their versions needed for the project, and scripts that can be run in the command line. 
+
+![](package_json.png)
+
+Above is an example of a package.json file for a Svelte project I'm working on. As you can see, there are sections for scripts, dev dependencies and dependencies.
 
 **5. What is the scripts section of the package.json file? How do you use it? What are the default commands, and how do you use your own?**
 
